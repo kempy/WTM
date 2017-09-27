@@ -71,6 +71,8 @@ For example, imagine your image is saved as ```cat.jpg``` inside the shared dire
 # python evaluate.py --checkpoint /workshop/fast-style-transfer/models/udnie.ckpt --in-path /workshop/shared/cat.jpg --out-path /workshop/shared/cat_styled.jpg
 ```
 
+If you get the output *Killed* from running ```evaluate.py``` your image is probably too big - try using a lower resolution version of your image.
+
 *If you are running on the Cloud*
 
 First, upload your image to the ```shared``` folder using the notebook server's UI, then run the above command.
